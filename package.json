@@ -6,12 +6,13 @@
 
   "homepage": "https://github.com/ashishpaul99/Employee-Management-System.git",
   "scripts": {
-    "predeploy": "npm run build",
-   "deploy": "gh-pages -d build",
-    "dev": "parcel public/index.html --open",
-    "build": "parcel build index.html",
-    "test": "jest"
-  },
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
+  "dev": "parcel public/index.html --open",
+  "build": "parcel build public/index.html --dist-dir build",
+  "test": "jest"
+}
+,
   "keywords": [],
   "author": "",
   "license": "ISC",
