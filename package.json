@@ -2,17 +2,13 @@
   "name": "employee-management-system",
   "version": "1.0.0",
   "description": "",
-
-
-
   "scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-  "dev": "parcel public/index.html --open",
-  "build": "parcel build public/index.html --dist-dir build",
-  "test": "jest"
-}
-,
+    "predeploy": "parcel build src/index.js --dist-dir build",
+    "deploy": "gh-pages -d build",
+    "dev": "parcel public/index.html --open",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
