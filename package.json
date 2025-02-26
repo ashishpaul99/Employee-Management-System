@@ -2,9 +2,10 @@
   "name": "employee-management-system",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://github.com/ashishpaul99/Employee-Management-System.git",
   "scripts": {
-    "predeploy": "parcel build src/index.js --dist-dir build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -d build",
     "dev": "parcel public/index.html --open",
     "build": "parcel build index.html",
     "test": "jest"
