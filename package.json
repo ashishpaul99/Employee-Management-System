@@ -2,7 +2,7 @@
   "name": "employee-management-system",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "src/index.html",
 
   "homepage": "https://github.com/ashishpaul99/Employee-Management-System.git",
   "scripts": {
