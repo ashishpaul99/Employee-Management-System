@@ -4,4 +4,3 @@ node_modules/
 # Ignore Parcel build folder
 dist/
 .parcel-cache/
-build/
